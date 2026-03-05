@@ -1,5 +1,5 @@
 <div>
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:000000,100:7C3AED&text=ResoBot&section=header&fontColor=ffffff&fontAlign=50&fontAlignY=35&animation=scaleIn&stroke=000000&strokeWidth=2" alt="# ResoBot 🤖" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:000000,100:A32ACB&text=ResoBot&section=header&fontColor=ffffff&fontAlign=50&fontAlignY=35&animation=scaleIn&stroke=000000&strokeWidth=2" alt="# ResoBot 🏴󠁧󠁢󠁷󠁬󠁳󠁿" />
 </div>
 
 <div align="right">
