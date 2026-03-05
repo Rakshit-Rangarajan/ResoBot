@@ -22,7 +22,7 @@ export default function Home() {
   };
 </script>
 
-<script src="https://chatbot.rakshit.co.in/chatbot-embed.js" async></script>`.trim()
+<script src="https://resobot.rakshit.co.in/chatbot-embed.js" async></script>`.trim()
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(snippet)
