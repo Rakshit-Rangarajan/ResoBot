@@ -1,0 +1,6 @@
+google
+pinecone
+pydantic
+pydantic_settings
+fastapi
+ollama
