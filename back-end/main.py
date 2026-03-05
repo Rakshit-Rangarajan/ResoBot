@@ -2,12 +2,22 @@ import os
 import ollama
 from ollama import Client
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pinecone import Pinecone
 from config import Settings
 
 # 1. Initialize FastAPI
 app = FastAPI(title="ResoBot Local Backend")
+
+# Add CORS Middleware to allow the frontend to communicate with this API
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # Note: For strict production security, you can change "*" to ["https://resobot.rakshitr.co.in"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # 2. Initialize Pinecone
 pc = Pinecone(api_key=Settings.PINECONE_API_KEY)
