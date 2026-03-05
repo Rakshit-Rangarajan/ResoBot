@@ -53,7 +53,7 @@ export function ChatbotWidget() {
 
     try {
       // 2. Point to your FastAPI endpoint
-      const response = await fetch('https://api.rakshit.co.in/chatbot/chat', {
+      const response = await fetch('https://api.rakshit.co.in/resobot/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
